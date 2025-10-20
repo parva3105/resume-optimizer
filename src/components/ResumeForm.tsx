@@ -45,7 +45,6 @@ export default function ResumeForm() {
       setNotes(data.notes ?? "");
       if (data.optimizedLatex) setResult({ optimizedLatex: data.optimizedLatex });
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const debouncedSave = React.useRef<(() => void) | null>(null);
@@ -131,7 +130,6 @@ export default function ResumeForm() {
 
           <div className="space-y-2">
             <Label htmlFor="latex">LaTeX Resume</Label>
-            {/* Fixed-height, internally scrollable textarea */}
             <Textarea
               id="latex"
               placeholder="Paste your LaTeX resume source..."
