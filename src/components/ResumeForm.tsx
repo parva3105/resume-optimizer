@@ -245,6 +245,17 @@ export default function ResumeForm() {
           )}
         </CardContent>
       </Card>
+      <div className="mt-6 border-t pt-4 text-center text-sm text-muted-foreground">
+        Made by Parva Shah |{" "}
+        <a
+            href="https://linkedin.com/in/parva3105"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-foreground"
+        >
+            LinkedIn
+        </a>
+      </div>
     </form>
   );
 }
