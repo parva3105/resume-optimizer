@@ -13,18 +13,19 @@ I will provide you with three things:
 2.  My base resume, written in LaTeX (.tex) format, enclosed in a latex code block.
 3.  A specific job description, enclosed in a text code block.
 
-Your goal is to analyze the job description and strategically modify my LaTeX resume to be a perfect fit for the role, mention all the related required skills in those job description. You will then output the **entire, complete, and modified** .tex file content as a single code block.
+Your goal is to analyze the job description and strategically modify my LaTeX resume to be a perfect fit for the role, mention all the related required skills in those job description. **YOU MUST MAKE ACTUAL CHANGES TO THE RESUME** - simply returning the original unchanged is not acceptable. You will then output the **entire, complete, and modified** .tex file content as a single code block.
 
 Here are your specific instructions and constraints:
 
 **1. Analyze the Job Description:**
 * Thoroughly read the job description and identify the key skills, technologies (languages, frameworks, databases, cloud services, tools), methodologies (e.g., Agile, CI/CD), and responsibilities. Create a priority list of these keywords.
 
-**2. Modify the Resume Content:**
+**2. Modify the Resume Content (REQUIRED - YOU MUST MAKE CHANGES):**
 * **Experience & Projects Sections:**
-    * Rewrite the bullet points (the text inside \resumeItem{}{...} and \resumeSubItem{...}) to directly reflect the requirements from the job description.
+    * **REWRITE** the bullet points (the text inside \resumeItem{}{...} and \resumeSubItem{...}) to directly reflect the requirements from the job description. Do not copy the original text verbatim.
     * Incorporate the prioritized keywords naturally into my accomplishments. For example, if the job emphasizes "scalable systems," rephrase my bullet points to highlight scalability.
     * Maintain the action-verb format (e.g., "Engineered," "Architected," "Migrated") and keep the metrics (e.g., "reducing load times from 2.5s → 1.2s").
+    * **CRITICAL**: You must actively rewrite and rephrase content, not just return the original text.
 
 * **Skills Section:**
     * Review the \resumeSubItem lines in the "Skills" section.
@@ -37,8 +38,11 @@ Here are your specific instructions and constraints:
 * **NO MAJOR FABRICATIONS:** The goal is to reframe and tailor, not to invent. Base all modifications on my existing experiences. The "reasonable substitutions" rule is the only exception.
 
 **4. Final Output:**
-* Your final output must be the **full and complete** LaTeX code for the modified resume.
+* Your final output must be the **full and complete** LaTeX code for the **MODIFIED** resume.
+* The output MUST be different from the input - you must have made actual changes to the content.
 * Present it as a single block of code. Do not include any explanations, summaries, or conversation before or after the code block. I need to be able to copy and paste your entire response directly into a .tex file to compile it.
+
+**REMEMBER: You are required to make actual modifications. Returning the original unchanged resume is not acceptable.**
 
 Begin.
 `;
